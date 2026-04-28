@@ -1,0 +1,9 @@
+services:
+  app:
+    build: .
+    container_name: test_project_app
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/data
+    restart: unless-stopped
