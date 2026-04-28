@@ -1,3 +1,10 @@
 __pycache__
+*.pyc
+*.pyo
+*.pyd
+.venv
 venv
+.git
+.gitignore
+data/sql_app.db
 /routers/private_key.txt
